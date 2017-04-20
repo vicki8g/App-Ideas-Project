@@ -19,14 +19,12 @@ var Profile = React.createClass({
             <button id="startButton" className="btn btn-primary btn-lg" value="start"></button>
         </div>
         <h3>Bob The Coder</h3>
-                    <div className="row">
-                        <div className="col-sm-3"></div>
-                        <div className="col-sm-4"><h4>Time Remaining: </h4></div>
-                        <div className="col-sm-1"><p></p><span id="display"></span></div>
-                        <div className="col-sm-2"><h4>Seconds</h4></div>
-                    </div>
+                    
 
         <div className="form-group">
+            <label for="employee-name-input">Blurb About You</label>
+            <input class="form-control" id="blurb" type="text">
+            <br>
             <label for="employee-name-input">Email Address</label>
             <input className="form-control" id="employee-name-input" type="text"></input>
         </div>
