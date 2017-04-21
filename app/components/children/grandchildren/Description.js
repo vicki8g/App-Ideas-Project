@@ -9,7 +9,8 @@ var Description = React.createClass({
               <h3 className="panel-title">Here is the project description</h3>
             </div>
             <div className="panel-body">
-              Panel content
+            <h1>Description:</h1>
+            <p>{this.props.description}</p>
             </div>
       </div>
     );

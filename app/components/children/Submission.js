@@ -48,7 +48,7 @@ var Submission = React.createClass({
                         <label for="description-input">Description</label>
                         <input className="form-control" id="role-input" type="text"> </input>
                     </div>
-                    <div className="form-group">
+                   {/* <div className="form-group">
                         <label for="category-input">Category (Business, Education, Entertainment, Food, Games, Health, Social)</label>
                         <input className="form-control" id="rate-input" type="text"> </input>
                     </div>
@@ -61,6 +61,7 @@ var Submission = React.createClass({
                     <h6>Difficulty Level 3: High - Same as Level 2 but it may use MongoDB Database with Sequelize or Mongoose ORM.  Must use ReactJS or Angular.  </h6>
                     <h6>All Apps must be deployed to Heroku (with Data).</h6>
                     <button className="btn btn-primary" id="add-employee-btn" type="submit">Submit</button>
+                */}
                 </form>
          </div>
       </div>
