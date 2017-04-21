@@ -2,7 +2,7 @@
 var React = require("react");
 
 const divStyle = {
-  backgroundColor: "black", 
+  backgroundColor: "#E5E4E2", 
   color: "white"
 }
 

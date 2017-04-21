@@ -5,6 +5,11 @@ var Description = require("./grandchildren/Description");
 
 var helper = require("../../utils/helper");
 
+const divStyle = {
+  backgroundColor: "#E5E4E2", 
+  color: "black"
+}
+
 var Projects = React.createClass({
 
   getInitialState: function() {
@@ -62,7 +67,7 @@ var Projects = React.createClass({
 
         <div className="row">
 
-            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-12" style={divStyle}>
                   <div className="panel-body">
                       <p>
                         <a href="#/Projects/Description" className="btn btn-warning btn-sm">Project #1</a>

@@ -12,7 +12,7 @@ var Profile = React.createClass({
 
         <div className="row">
             <div className="col-lg-12">
-                <h1>PROFILE PAGE: Enter Information</h1></div>
+                <h3>PROFILE PAGE: Enter Information</h3></div>
         </div>
         <br> </br>
         <div className="text-center">
