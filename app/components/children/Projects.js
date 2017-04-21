@@ -6,13 +6,11 @@ var Description = require("./grandchildren/Description");
 var helper = require("../../utils/helper");
 
 var Projects = React.createClass({
-  render: function() {
-    var projAr;
 
   getInitialState: function() {
     return { 
       projectList: "", 
-      projectDescription: ""
+      projectDescription: "",
       projectName: "",
       userName: "",
 
@@ -56,7 +54,8 @@ var Projects = React.createClass({
         }.bind(this));
       },
 
-
+  render: function() {
+  
     return (
 
     <div className="container">
