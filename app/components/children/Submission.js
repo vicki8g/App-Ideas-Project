@@ -17,15 +17,15 @@ var Submission = React.createClass({
             <div className="col-lg-12">
                 <form>
                     <div className="form-group">
-                        <label for="name-input">Users Name</label>
+                        <label htmlFor="name-input">Users Name</label>
                         <input className="form-control" id="employee-name-input" type="text"></input>
                     </div>
                     <div className="form-group">
-                        <label for="idea-input">App Idea Title</label>
+                        <label htmlFor="idea-input">App Idea Title</label>
                         <input className="form-control" id="role-input" type="text"> </input>
                     </div>
                     <div className="form-group">
-                        <label for="description-input">Description</label>
+                        <label htmlFor="description-input">Description</label>
                         <input className="form-control" id="role-input" type="text"> </input>
                     </div>
                    {/* <div className="form-group">
