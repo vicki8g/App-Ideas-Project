@@ -15,26 +15,6 @@ var Submission = React.createClass({
         </div>
         <div className="row">
             <div className="col-lg-12">
-                <div className="panel panel-primary">
-                    <div className="panel-heading">
-                        <h3 className="panel-title"><strong>Current Ideas</strong></h3>
-                    </div>
-                    <div className="panel-body">
-                        <table className="table table-hover" id='employee-table'>
-                            <thead>
-                                <tr>
-                                    <th>Coders Name</th>
-                                    <th>App Idea Title</th>
-                                    <th>Difficulty Level</th>
-                                    <th>Up Votes</th>
-                                    <th>Down Votes</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
                 <form>
                     <div className="form-group">
                         <label for="name-input">Users Name</label>
@@ -62,6 +42,7 @@ var Submission = React.createClass({
                     <h6>All Apps must be deployed to Heroku (with Data).</h6>
                     <button className="btn btn-primary" id="add-employee-btn" type="submit">Submit</button>
                 */}
+                <button className="btn btn-primary" id="add-employee-btn" type="submit">Submit</button>
                 </form>
          </div>
       </div>
